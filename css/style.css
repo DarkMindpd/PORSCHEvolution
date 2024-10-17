@@ -1,0 +1,228 @@
+@font-face {
+  font-family: SourceSansPro;
+  src: url(../static/font/converted-fonts/SourceSansPro-Regular.woff2);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: SourceSansPro;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+div.main > div {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0px -20px;
+}
+
+div.main > div.landpage {
+  background-image: url(../static/image/landingpage.jpg);
+  text-align: center;
+}
+
+div.main > div.landpage > div.logo {
+  display: inline-block;
+  text-align: left;
+  width: 80%;
+  height: 300px;
+  padding: 122px 0px 0px 1px;
+}
+
+div.main > div.landpage > div.logo > p.left {
+  display: inline-block;
+  font-size: 26.6667px;
+  color: rgb(177, 60, 60);
+  font-weight: 500;
+}
+
+div.main > div.landpage > div.logo > p.right {
+  display: inline-block;
+  font-size: 26.6667px;
+  color: rgb(113, 113, 113);
+  font-weight: 300;
+}
+
+div.main > div.landpage > div.logo > p.down {
+  font-size: 16px;
+  color: rgb(113, 113, 113);
+  font-weight: 300;
+}
+
+div.main > div.landpage > div.boticon {
+  width: 100%;
+  height: 70px;
+  margin: 55vh auto;
+}
+
+div.main > div.landpage > div.boticon > a > div.bot {
+  display: inline-block;
+  width: 235px;
+  height: 56px;
+  border: rgb(177, 60, 60) solid 3px;
+}
+
+div.main > div.landpage > div.boticon > a > div.bot > p {
+  line-height: 51px;
+  font-size: 22px;
+  color: rgb(177, 60, 60);
+  font-weight: 400;
+}
+
+div.main > div.page1 {
+  background-image: url(../static/image/porsche.jpg);
+}
+
+div.main > div.page2 {
+  background-image: url(../static/image/1930.jpg);
+}
+
+div.main > div.page3 {
+  background-image: url(../static/image/1940.jpg);
+}
+
+div.main > div.page4 {
+  background-image: url(../static/image/1950.jpg);
+}
+
+div.main > div.page5 {
+  background-image: url(../static/image/1960.jpg);
+}
+
+div.main > div.page6 {
+  background-image: url(../static/image/1970.jpg);
+}
+
+div.main > div.page7 {
+  background-image: url(../static/image/1980.jpg);
+}
+
+div.main > div.page8 {
+  background-image: url(../static/image/1990.jpg);
+}
+
+div.main > div.page9 {
+  background-image: url(../static/image/2000.jpg);
+}
+
+div.main > div.page10 {
+  background-image: url(../static/image/2010.jpg);
+}
+
+div.main > div.page11 {
+  background-image: url(../static/image/2020.jpg);
+}
+
+div.main > div > div.about {
+    text-align: center;
+    width: 990px;
+    height: 250px;
+    margin: auto auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+div.main > div > div.about > div.year {
+    width: 100%;
+    margin: auto auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+hr {
+    width: 31px;
+    margin: auto;
+    border: 1px rgb(177, 60, 60) solid;
+    border-radius: 30px;
+}
+
+div.main > div > div.about > div.desc {
+    width: 60%;
+    height: 44px;
+    margin: auto auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+div.main > div > div.about > div > p.title {
+    font-size: 29.3333px;
+    font-weight: 400;
+    color: white;
+    mix-blend-mode: difference;
+    margin: 50px auto 5px auto;
+}
+
+div.main > div > div.about > div > p.text {
+    font-size: 17.3333px;
+    font-weight: 400;
+    color: white;
+    mix-blend-mode: difference;
+    margin: 25px auto 0 auto;
+}
+
+div.main > div > div.about > div > p.text > span{
+    font-weight: 700;
+}
+
+div.main > div.lastpage {
+  background-color: black;
+  padding: 180px 0px 70px;
+  text-align: center;
+}
+
+div.main > div.lastpage > div.weblink {
+  margin: 50px auto;
+  padding: 0 0 30px;
+  width: 100%;
+  height: 130px;
+}
+
+div.main > div.lastpage > div.weblink > h2 {
+  font-weight: 100;
+  font-size: 16px;
+  color: white;
+}
+
+div.main > div.lastpage > div.weblink > a {
+  font-size: 45px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+div.main > div.lastpage > p.info {
+  font-size: 16px;
+  color: white;
+  padding: 0 0 25px;
+}
+
+div.main > div > div.buticon {
+    width: 100%;
+    height: 70px;
+    margin: 60vh auto auto 95%;
+  }
+  
+  div.main > div > div.buticon > a > div.bot {
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(177, 60, 60);
+    border: rgb(177, 60, 60) solid 3px;
+  }
+  
+  div.main > div > div.buticon > a > div.bot > p {
+    line-height: 35px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
